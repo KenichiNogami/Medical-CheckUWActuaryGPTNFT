@@ -32,7 +32,7 @@
     const lung = parseInt(document.querySelector('input[name="lung"]:checked').value);
     const cancer = parseInt(document.querySelector('input[name="cancer"]:checked').value);
   
-// API 接続は原則としてサーバーで行なってください。(以下、NODEJSでの例)// 
+// API 接続は原則としてサーバーで行なってください。また、APIキーはソースコードに直接書かずにENVファイル等に書くようにしてください。(以下、NODEJSでの例)// 
     const apiUrl = "https://myjumyo01.azurewebsites.net/api/HttpTrigger1";
     const apiKey = "";
 　　 const requestOptions = {
