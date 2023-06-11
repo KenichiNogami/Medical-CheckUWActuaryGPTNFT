@@ -33,7 +33,9 @@
     const heart = parseInt(document.querySelector('input[name="heart"]:checked').value);
     const lung = parseInt(document.querySelector('input[name="lung"]:checked').value);
     const cancer = parseInt(document.querySelector('input[name="cancer"]:checked').value);
-    
+  
+// API keyについてはユーザーに漏洩しないようにAPI接続をサーバーで行うか、暗号化してください。//
+// 次はRuby on Railsでの対処例です。　//   
     const apiUrl = "https://myjumyo01.azurewebsites.net/api/HttpTrigger1";
     const apiKey = "<%= Rails.application.credentials.AZURE_API_KEY %>";
 　　 const requestOptions = {
