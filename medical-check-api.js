@@ -1,6 +1,4 @@
 
-
-
 <script>
   const form = document.getElementById('inputForm');
   const resultDiv = document.getElementById('result');
