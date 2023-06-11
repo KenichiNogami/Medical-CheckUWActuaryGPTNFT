@@ -1,0 +1,117 @@
+
+
+          <form class="new_user" id="inputForm" accept-charset="UTF-8">
+            <p class="text-left">
+            <a id="apply">＊　<b>定期健康診断</b></a>データをご入力ください。<br>＊　定期健康診断項目が少ない３５歳未満の方などは、<b>例示の数字</b>を入れてください。<br>
+            ＊　血圧などを薬などで押さえていらっしゃる方もそのまま、修正などせず実際の測定値を入力ください。<br>
+            <label class="d-block"><b>性別:</b></label>
+            <input type="radio" id="r01" name="gender" value="1" required><label for="r1">男性</label><br>
+            <input type="radio" id="r02" name="gender" value="2" required><label for="r2">女性</label>
+            <br><br>
+            <label class="d-block" for="age"><b>年齢</b>:歳</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　59" type="number" step="1" id="age" required>
+            <br>
+            <label class="d-block" for="weight"><b>体重</b>:kg</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　64" type="number" step="any" value="" id="weight" required>
+            <br>
+            <label class="d-block" for="high"><b>身長</b>:cm</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　165" type="number" step="any" value="" id="high" required>
+            <br>
+            <label class="d-block" for="pressu"><b>血圧（上）</b>:mmHg</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　129" type="number" step="any" value="" id="pressu" required>
+            <br>
+            <label class="d-block" for="pressd"><b>血圧（下）</b>:mmHg</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　84" type="number" step="any" value="" id="pressd" required>
+            <br>
+            <label class="d-block" for="ast"><b>AST(GOT)</b>:U/L</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　30" type="number" step="any" value="" id="ast" required>
+            <br>
+            <label class="d-block" for="alt"><b>ALT(GPT)</b>:U/L</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　30" type="number" step="any" value="" id="alt" required>
+            <br>
+            <label class="d-block" for="gtp"><b>γ-GTP</b>:U/L</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　50" type="number" step="any" value="" id="gtp" required>
+            <br>
+            <label class="d-block" for="tg"><b>中性脂肪（TG、トリグリセリド）</b>:mg/dl</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　149" type="number" step="any" value="" id="tg" required>
+            <br>
+            <label class="d-block" for="hdl"><b>HDLコレステロール</b>:mg/dl</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　40" type="number" step="any" value="" id="hdl" required>
+            <br>
+            <label class="d-block" for="ldl"><b>LDLコレステロール</b>:mg/dl</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　99" type="number" step="any" value="" id="ldl" required>
+            <br>
+            <label class="d-block" for="tl"><b>総コレステロール</b>:mg/dl</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　199" type="number" step="any" value="" id="tl" required>
+            <br>
+            <label class="d-block" for="bs"><b>空腹時血糖</b>:mg/dl</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　99" type="number" step="any" value="" id="bs" required>
+            <br>
+            <label class="d-block" for="hba"><b>HbA1c(NGSP)</b>:％</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　5.5" type="number" step="any" value="" id="hba" required>
+            <br>
+            <label class="d-block" for="rb"><b>赤血球数（RBC）</b>:万/μL<br>検査機関によって桁数が違いますので３桁になるように調整してください。</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　500" type="number" step="any" value="" id="rb" required>
+            <br>
+            <label class="d-block" for="hb"><b>血色素（Hb、ヘモグロビン)</b>:g/dl<br>検査機関によって桁数が違いますので２桁になるように調整してください。</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　13.1" type="number" step="any" value="" id="hb" required>
+            <br>
+            <label class="d-block" for="plat"><b>血小板数（PLT）</b>:万/μL<br>検査機関によって桁数が違いますので２桁になるように調整してください。</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　32" type="number" step="any" value="" id="plat" required>
+            <br>
+            <label class="d-block" for="crt"><b>クレアチニン(Cr)</b>:mg/dl</label>
+            <input class="form-control w-20 form_bg_color p-2 pl-3" placeholder="例　0.70" type="number" step="any" value="" id="crt" required>
+            <br>
+            <label class="d-block"><b>尿糖：</b></label>
+            <input type="radio" id="r11" name="urs" value="9" required><label for="r11">ー</label><br>
+            <input type="radio" id="r12" name="urs" value="0" required><label for="r12">±</label><br>
+            <input type="radio" id="r13" name="urs" value="1" required><label for="r13">＋</label><br>
+            <input type="radio" id="r14" name="urs" value="2" required><label for="r14">＋＋</label><br>
+            <input type="radio" id="r15" name="urs" value="3" required><label for="r15">＋＋＋</label><br>
+            <input type="radio" id="r16" name="urs" value="4" required><label for="r16">＋＋＋＋</label><br>
+            <input type="radio" id="r17" name="urs" value="5" required><label for="r17">＋＋＋＋＋</label><br>
+            <br><br>
+            <label class="d-block"><b>尿蛋白</b></label>
+            <input type="radio" id="r21" name="urp" value="9" required><label for="r21">ー</label><br>
+            <input type="radio" id="r22" name="urp" value="0" required><label for="r22">±</label><br>
+            <input type="radio" id="r23" name="urp" value="1" required><label for="r23">＋</label><br>
+            <input type="radio" id="r24" name="urp" value="2" required><label for="r24">＋＋</label><br>
+            <input type="radio" id="r25" name="urp" value="3" required><label for="r25">＋＋＋</label><br>
+            <br><br>
+            <label class="d-block"><b>心電図:</b></label>
+            <input type="radio" id="r31" name="heart" value="3" required><label for="r31">治療中</label><br>
+            <input type="radio" id="r32" name="heart" value="2" required><label for="r32">治療や精密検査が必要</label><br>
+            <input type="radio" id="r33" name="heart" value="1" required><label for="r33">経過観察中</label><br>
+            <input type="radio" id="r34" name="heart" value="0" required><label for="r34">所見なし</label><br>
+            <br><br>
+            <label class="d-block"><b>胸部レントゲン:</b></label>
+            <input type="radio" id="r41" name="lung" value="3" required><label for="r41">治療中</label><br>
+            <input type="radio" id="r42" name="lung" value="2" required><label for="r42">治療や精密検査が必要</label><br>
+            <input type="radio" id="r43" name="lung" value="1" required><label for="r43">経過観察中</label><br>
+            <input type="radio" id="r44" name="lung" value="0" required><label for="r44">所見なし</label><br>
+            <br><br>
+              <label class="d-block"><b>総合所見：</b>
+            <br>過去1年以内に医師・歯科医や健康診断時に、<b>入院・手術・放射線治療・がんの電磁波温熱療法</b>を勧められたり、実際に<b>入院や治療</b>を受けたことがありますか？</label>
+            <label for="r51"><input type="radio" id="r51" name="opinion" value="3" required>はい。そして、その手術等を行なった病気の後も<b>治療や投薬中</b>です。</label><br>
+            <label for="r52"><input type="radio" id="r52" name="opinion" value="2" required>はい。その手術等を行なった病気について、治療・投薬は受けていませんが<b>経過観察中</b>です。</label><br>
+            <label for="r53"><input type="radio" id="r53" name="opinion" value="1" required>はい。しかし、すでに<b>完治</b>し、経過観察も不要と医師等から言われています。</label><br>
+            <label for="r54"><input type="radio" id="r54" name="opinion" value="0" required><b>いいえ。</b></label>
+            <br><br>
+            <label class="d-block">今までに<b>がん</b>に罹患したことがありますか？</label>
+            <label for="r61"><input type="radio" id="r61" name="cancer" value="6" required>はい。<b>治療・投薬中</b>です。</label><br>
+            <label for="r62"><input type="radio" id="r62" name="cancer" value="5" required>経過観察開始から<b>１年未満</b></label><br>
+            <label for="r63"><input type="radio" id="r63" name="cancer" value="4" required>経過観察開始から<b>１年以上２年未満</b></label><br>
+            <label for="r64"><input type="radio" id="r64" name="cancer" value="3" required>経過観察開始から<b>２年以上３年未満</b></label><br>
+            <label for="r65"><input type="radio" id="r65" name="cancer" value="2" required>経過観察開始から<b>３年以上４年未満</b></label><br>
+            <label for="r66"><input type="radio" id="r66" name="cancer" value="1" required>経過観察開始から<b>４年以上５年未満</b></label><br>
+            <label for="r67"><input type="radio" id="r67" name="cancer" value="0" required>経過観察開始から<b>５年以上</b></label><br>
+            <label for="r68"><input type="radio" id="r68" name="cancer" value="0" required><b>いいえ。</b></label>
+            </p><br>
+            <h1 class="text-center">
+            <button class="btn btn-primary w-50 font-weight-bold" type="submit"><b>私の寿命あと何年？</b></button>
+            </h1>
+          </form>
+          <br><br>
+
+  <div class="text-center" id="result">
+  </div>
