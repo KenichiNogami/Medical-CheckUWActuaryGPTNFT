@@ -42,7 +42,7 @@
 　　　　
 　　　　　
 
-開発者DAO  　　
+開発者の集い 　　
 
 1. オープン＆自由　governed by dicipline
   
